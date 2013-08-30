@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_referral_panel_first"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Referral Page 1"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_referral_panel_second"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Referral Page 2"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_referral_panel_third"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Referral Theme"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_referral_panel_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Referral Funnel Stats"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+</LinearLayout>

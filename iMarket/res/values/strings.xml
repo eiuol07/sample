@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">iMarket</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="bottom_tab_first_label">Dashboard</string>
+    <string name="bottom_tab_second_label">Media</string>
+    <string name="bottom_tab_third_label">Themes</string>
+    <string name="bottom_tab_fourth_label">Training</string>
+    <string name="bottom_tab_fifth_label">More</string>
+    <string name="profile_title">Profile</string>
+    <string name="theme_detail_title">Theme Detail</string>
+    <string name="other_views_title">Other Views</string>
+    <string name="step_one_title">STEP1</string>
+    <string name="step_two_title">STEP2</string>
+    <string name="step_three_title">STEP3</string>
+    <string name="step_four_title">STEP4</string>
+    <string name="step_five_title">STEP5</string>
+    <string name="rotator_theme_title">Rotator Theme</string>
+    <string name="rotator_funnel_stats_title">Rotator Funnel Stats</string>
+    <string name="page_one_step_two_title">PAGE1:STEP2</string>
+    <string name="page_two_step_three_title">PAGE2:STEP3</string>
+    <string name="rotator_funnel_two_theme_title">ROTATOR FUNNEL 2:THEME</string>
+    <string name="referral_page_one_title">REFERRAL PAGE-1</string>
+    <string name="referral_page_two_title">REFERRAL PAGE-2</string>
+    <string name="referral_theme_title">Referral Theme</string>
+    <string name="referral_funnel_stats_title">Referral Funnel Stats</string>
+    <string name="commisions_title">Commisions</string>
+    <string name="archive_title">Archive</string>
+    <string name="exit_squeeze_title">Exit Squeeze</string>
+    <string name="referral_links_title">Referral Links</string>
+    <string name="auto_responders_title">Auto Responders</string>
+    <string name="my_referrals_title">My Referrals</string>
+    <string name="link_tracker_title">Link Tracker</string>
+    <string name="tickets_title">Tickets</string>
+
+</resources>

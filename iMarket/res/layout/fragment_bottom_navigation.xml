@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:orientation="horizontal"
+    android:weightSum="5" >
+
+    <Button
+        android:id="@+id/button_dashboard"
+        style="@style/style_bottom_nav_btn"
+        android:text="@string/bottom_tab_first_label" >
+    </Button>
+
+    <Button
+        android:id="@+id/button_media"
+        style="@style/style_bottom_nav_btn"
+        android:text="@string/bottom_tab_second_label" >
+    </Button>
+
+    <Button
+        android:id="@+id/button_themes"
+        style="@style/style_bottom_nav_btn"
+        android:text="@string/bottom_tab_third_label" >
+    </Button>
+
+    <Button
+        android:id="@+id/button_training"
+        style="@style/style_bottom_nav_btn"
+        android:text="@string/bottom_tab_fourth_label" >
+    </Button>
+
+    <Button
+        android:id="@+id/button_more"
+        style="@style/style_bottom_nav_btn"
+        android:text="@string/bottom_tab_fifth_label" >
+    </Button>
+
+</LinearLayout>

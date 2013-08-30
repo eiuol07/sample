@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.imarket"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="18" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.imarket.activities.IMarket"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.imarket.activities.MainActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ArchiveActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.AutoRespondersActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.CommisionsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ExitSqueezeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.LinkTrackerActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.MyReferralsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.PageOneStepTwoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.PageTwoStepThreeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ProfileActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ReferralFunnelStatsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ReferralLinksActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ReferralPageOneActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ReferralPageTwoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ReferralThemeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.RotatorFunnelTwoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.RotatorThemeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.StepFiveActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.StepFourActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.StepOneActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.StepThreeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.StepTwoActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ThemeDetailActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.TicketsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.imarket.activities.ViewsActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

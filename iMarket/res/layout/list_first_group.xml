@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_rotator_funnel_first"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textview_rotator_funnel_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/step_one_title"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_rotator_funnel_second"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textview_rotator_funnel_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/step_two_title"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_rotator_funnel_third"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textview_rotator_funnel_third"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/step_three_title"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_rotator_funnel_fourth"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textview_rotator_funnel_fourth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/step_four_title"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_rotator_funnel_fifth"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textview_rotator_funnel_fifth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/step_five_title"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_rotator_funnel_sixth"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textview_rotator_funnel_sixth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/rotator_theme_title"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_rotator_funnel_seventh"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#FDFDFD"
+        android:paddingBottom="5dp"
+        android:paddingLeft="20dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/textview_rotator_funnel_seventh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="@string/rotator_funnel_stats_title"
+            android:textColor="#8E929A" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="button"
+            android:textSize="8sp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="rotator_funeral">
+        <item>Step 1</item>
+        <item>Step 2</item>
+        <item>Step 3</item>
+        <item>Step 4</item>
+        <item>Step 5</item>
+        <item>Rotator Theme</item>
+        <item>Rotator Funeral Stats</item>
+    </string-array>
+    <string-array name="additional_rotator_funeral">
+        <item>Rotator Funnel 2</item>
+        <item>Page 1</item>
+        <item>Page 2</item>
+        <item>Theme</item>
+    </string-array>
+    <string-array name="referral_panel">
+        <item>Referral Page 1</item>
+        <item>Referral Page 2</item>
+        <item>Referral Theme</item>
+        <item>Referral Funnel Stats</item>
+    </string-array>
+    <string-array name="credits">
+        <item>Commisions</item>
+        <item>Archive</item>
+    </string-array>
+    <string-array name="settings">
+        <item>Exit Squeeze</item>
+        <item>Referral Links</item>
+        <item>Auto Responders</item>
+        <item>My Referrals</item>
+        <item>Link Tracker</item>
+    </string-array>
+    <string-array name="support">
+        <item>Tickets</item>
+    </string-array>
+    <string-array name="menu">
+        <item>Rotator Funeral</item>
+        <item>Additional Rotator Funeral</item>
+        <item>Referral Panel</item>
+        <item>Credits</item>
+        <item>Settings</item>
+        <item>Support</item>
+    </string-array>
+
+</resources>
